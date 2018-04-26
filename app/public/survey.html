@@ -32,10 +32,10 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 							<li class="nav-item">
-									<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="/">Home <span class="sr-only"></span></a>
 							</li>
 							<li class="nav-item active">
-									<a class="nav-link" href="/survey">Survey <span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="/survey">Survey <span class="sr-only"></span></a>
 							</li>
 							<li class="nav-item">
 									<a class="nav-link" href="/api/friends">API Friends List</a>
@@ -62,15 +62,15 @@
 							<h3 class="text-center">About You</h3>
 	
 							<div class="text-center">
-								<h5><i class="fas fa-user-circle"></i> Name (Required)</h5>
+								<h5><i class="fas fa-user-circle"></i> Name:<input type="text" class="validate data-val-required" placeholder="Your Name Here" id="userName" required></h5>
 								
-								<input type="text" class="validate" placeholder="Your Name Here" id="userName" required>
+							
 							</div>
 	
 							<div class="text-center">
-								<h5><i class="fas fa-image"></i> Link to Photo Image (Required)</h5>
+								<h5><i class="fas fa-image"></i> Link to Photo Image:<input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto" required></h5>
 								
-								<input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto" required>
+								
 							</div>
 	<hr>
 							<!-- Survey Questions -->
