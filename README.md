@@ -8,9 +8,9 @@ This project was created as an assignment for the Coding Bootcamp at University 
 *[View the finished product on Heroku.](https://brainchomper-friend-finder.herokuapp.com/)
 ---
 **Technologies Used**
-*HTML
-*CSS
-*Javascript
-*Express
-*Node
-*JSON
+* HTML
+* CSS
+* Javascript
+* Express
+* Node
+* JSON
