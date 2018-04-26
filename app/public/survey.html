@@ -10,7 +10,7 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
 <!-- Font Awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <!-- Bootstrap core CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
@@ -25,7 +25,7 @@
 
 	<header>
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
-			<a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+			<a class="navbar-brand" href="#"><strong><i class="fas fa-users"></i></strong></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 			</button>
@@ -52,27 +52,27 @@
 	<main>
 			<div class="container">
 				<div class="row">
-					<div class="col s12 z-depth-5 mainpanel">
+					<div class="col z-depth-5">
 						<div id="mainpanel-content">
-							<h1>Survey Questions</h1>
-							<div class="divider"></div>
+							<h1 class="text-center">Survey Questions</h1>
+							<hr>
 	
-							<h3>About You</h3>
+							<h3 class="text-center">About You</h3>
 	
-							<div class="input-field col s6">
-								<h5>Name (Required)</h5>
-								<i class="material-icons prefix">account_circle</i>
+							<div class="text-center">
+								<h5><i class="fas fa-user-circle"></i> Name (Required)</h5>
+								
 								<input type="text" class="validate" placeholder="Your Name Here" id="userName" required>
 							</div>
 	
-							<div class="input-field col s6">
-								<h5>Link to Photo Image (Required)</h5>
-								<i class="material-icons prefix">picture_in_picture</i>
+							<div class="text-center">
+								<h5><i class="fas fa-image"></i> Link to Photo Image (Required)</h5>
+								
 								<input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto" required>
 							</div>
-	
+	<hr>
 							<!-- Survey Questions -->
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 1</h3>
 								<h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
 								<select id="question1">
@@ -85,7 +85,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 2</h3>
 								<h5>Generally speaking, you rely more on your experience than your imagination.</h5>
 								<select id="question2">
@@ -98,7 +98,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 3</h3>
 								<h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
 								<select id="question3">
@@ -111,7 +111,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 4</h3>
 								<h5>You rarely do something just out of sheer curiosity.</h5>
 								<select id="question4">
@@ -124,7 +124,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 5</h3>
 								<h5>People can rarely upset you.</h5>
 								<select id="question5">
@@ -137,7 +137,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 6</h3>
 								<h5>It is often difficult for you to relate to other people’s feelings.</h5>
 								<select id="question6">
@@ -150,7 +150,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 7</h3>
 								<h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
 								<select id="question7">
@@ -163,7 +163,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 8</h3>
 								<h5>You rarely get carried away by fantasies and ideas.</h5>
 								<select id="question8">
@@ -176,7 +176,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 9</h3>
 								<h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
 								<select id="question9">
@@ -189,7 +189,7 @@
 								</select>
 							</div>
 	
-							<div class="input-field col s12">
+							<div class="text-center">
 								<h3>Question 10</h3>
 								<h5>You feel more energetic after spending time with a group of people.</h5>
 								<select id="question10">
@@ -201,10 +201,10 @@
 									<option value="5">5 (Strongly Agree)</option>
 								</select>
 							</div>
-	
+	<hr>
 							<!-- Survey Submit Button -->
 							<div>
-								<button class="btn btn-success btn-lg btn-block" type="submit" name="action" id="submitButton">Submit Responses
+								<button class="btn btn-success btn-lg btn-block" type="submit" name="action" id="submitButton">Find Your Friend
 								</button>
 							</div>
 						</div>

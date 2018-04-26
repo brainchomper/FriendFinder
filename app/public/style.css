@@ -5,13 +5,18 @@ body{
 	width: 80%;
 	margin: auto;
 }
-
+h1{
+	font-weight: bold;
+}
+.center{
+	text-align: center;
+}
 .navbar{
 	width: 80%;
 	margin: auto;
 }
 .container{
-	margin-top: 70px;
+	margin-top: 60px;
 	margin-bottom: 15px;
 }
 .btn{
