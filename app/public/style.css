@@ -5,3 +5,16 @@ body{
 	width: 80%;
 	margin: auto;
 }
+
+.navbar{
+	width: 80%;
+	margin: auto;
+}
+.container{
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+.btn{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
