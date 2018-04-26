@@ -5,7 +5,7 @@ The Friend Finder application is basically a dating app, but for makin' new budd
 
 This project was created as an assignment for the Coding Bootcamp at University Of Utah.
 
-*[View the finished product on Heroku.](https://brainchomper-friend-finder.herokuapp.com/)
+[View the finished product on Heroku.](https://brainchomper-friend-finder.herokuapp.com/)
 ---
 **Technologies Used**
 * HTML
